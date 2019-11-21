@@ -24,4 +24,6 @@
     <string name="amount_of_work">Amount of work</string>
     <string name="date">date</string>
     <string name="textview">TextView</string>
+    <string name="hour_s">Hour (s)</string>
+    <string name="_1_5">1.5</string>
 </resources>
