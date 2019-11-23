@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <RelativeLayout
+        android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
@@ -98,6 +99,26 @@
             android:text="Date"
             android:textSize="20sp" />
 
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="539dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-6dp">
+
+            <com.framgia.library.calendardayview.CalendarDayView
+                android:id="@+id/dayView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:dayHeight="@dimen/dayHeight" />
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
     </RelativeLayout>
 
